@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h2>Contact Us</h2>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="canvas.html">Canvas</a></li>
+  </ul>
+  <form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br>
+  <br>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">Contact Us</textarea>
+    <button onclick="window.location.href='index.html'">Go To Home</button>
+    <button onclick="myEvent()">Submit</button>
+    <script>
+      function myEvent() {
+        alert("Submitted.");
+      }
+    </script>
+  </form>
+
+
+</body>
+
+</html>
